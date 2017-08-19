@@ -1,7 +1,7 @@
 let actions = {
-  addTodo: function (text) {
+  formsubmit: function (text) {
       return {
-        type: 'ADD_TODO',
+        type: 'SUBMIT',
         text: text
       }
   }
